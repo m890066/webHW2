@@ -1,0 +1,44 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+.top{
+	height: 100px;
+}
+.banner{
+	background-image: url("./image/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 786px;
+}
+.content{
+	height: 700px;
+}
+.bottom{
+	height: 50px;
+	background-color: #000;
+	color: rgb(228,108,10);
+	padding-left: 60px;
+	padding-top: 20px;
+	font-size: 16px;
+}
+ul{
+	margin-left:50px; 
+}
+li{
+	display: inline-block;
+	margin-left: 20px; 
+}
+li:hover{
+	cursor: pointer;
+}
+.mask{
+	background-image: url("./image/mask.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 249px;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	top:557px;
+}

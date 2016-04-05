@@ -14,6 +14,34 @@
 .content{
 	height: 700px;
 }
+.content h1{
+	border-bottom: 2px solid rgb(153,102,51) ;
+	width: 70%;
+}
+.container{
+	padding-left: 250px;
+}
+.image{
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+.article{
+	float: left;
+	display: inline-block;
+	height: 250px;
+	width: 300px;
+}
+.article h2{
+	margin: 30px auto;
+	text-align: center;
+}
+.article p{
+	margin: 0px auto;
+	text-align: center;
+	padding: 20px 40px 0px 40px;
+}
 .bottom{
 	height: 50px;
 	background-color: #000;
@@ -41,4 +69,7 @@ li:hover{
 	z-index: 1;
 	position: absolute;
 	top:557px;
+}
+.clear{
+	 clear: left;
 }
